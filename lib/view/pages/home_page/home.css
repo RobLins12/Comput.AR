@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    background-color: #efeceb;
+    font-family: "Aldrich", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    margin: 0 auto;
+    border-top: solid 1px rgb(200, 199, 199);
+}
+
+.icon img {
+    width: 30px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
