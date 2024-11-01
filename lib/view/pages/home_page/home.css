@@ -1,4 +1,4 @@
-html, body {
+*{
     margin: 0;
     padding: 0;
     width: 100%;
@@ -12,21 +12,45 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100vh;
-    
 }
 
+h1{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80vh;
+    height: 80vh;
+    gap: 10px; 
+  }
+  
+  .box {
+    width: 100%;
+    height: 25%;
+    background-color: #654321;
+    border-radius: 10px;
+  }
 
 footer {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     width: 100%;
     height: 10%;
-    margin: 0 auto;
     border-top: solid 1px rgb(200, 199, 199);
 }
 
-.icon img {
-    width: 30px; /* Ajuste o tamanho conforme necessário */
-    height: auto;
+footer a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
 }
+
+
+
+
