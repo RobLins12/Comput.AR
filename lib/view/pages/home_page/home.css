@@ -9,9 +9,10 @@ body {
     font-family: "Aldrich", sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh; /* Altura total da tela */
+    overflow-y: auto; /* Adiciona rolagem no eixo Y */
+    padding-bottom: 10%; /* Espaço para o footer fixo */
 }
 
 h1{
@@ -25,7 +26,7 @@ h1{
     justify-content: space-around;
     align-items: center;
     width: 90%;
-    height: 80vh;
+    height: 90vh;
     gap: 10px; 
   }
   
