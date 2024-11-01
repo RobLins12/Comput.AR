@@ -169,13 +169,14 @@ body {
 }
 
 /* Responsividade */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .container {
         padding: 10px;
+        height: 550px;
     }
 
     .container-card {
-        flex-direction: column;
+        flex-direction: row;
         align-items: stretch;
     }
 
@@ -186,6 +187,10 @@ body {
 
     #comando {
         font-size: 14px;
+    }
+
+    #cartao {
+        height: 150px;
     }
 
     #cartao .row {
