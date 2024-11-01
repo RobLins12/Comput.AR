@@ -142,7 +142,7 @@ body {
     font-style: italic;
 }
 
-.sobre {
+.sobre {   
     color: var(--color-text);
     margin-bottom: 300px;
 }
@@ -169,13 +169,20 @@ body {
 }
 
 /* Responsividade */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
+
+    .sobre {
+        position: relative;
+        margin-top: 20px; /* ajustável conforme o crescimento */      
+    }
+    
     .container {
         padding: 10px;
+        height: 550px;
     }
 
-    .container-card {
-        flex-direction: column;
+    .container-card {        
+        flex-direction: row;
         align-items: stretch;
     }
 
@@ -190,6 +197,10 @@ body {
 
     #cartao .row {
         display: flex;
+    }
+
+    #cartao {
+        height: 150px;
     }
 
     .row.aux {
@@ -228,4 +239,5 @@ body {
     #programa {
         height: auto;
     }
+
 }
