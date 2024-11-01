@@ -15,6 +15,7 @@ body {
 }
 
 h1{
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -23,7 +24,7 @@ h1{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 80vh;
+    width: 90%;
     height: 80vh;
     gap: 10px; 
   }
@@ -35,12 +36,16 @@ h1{
     border-radius: 10px;
   }
 
-footer {
+  footer {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
     height: 10%;
+    position: fixed; /* Mantém o footer fixo */
+    bottom: 0; /* Posiciona o footer na parte inferior da tela */
     border-top: solid 1px rgb(200, 199, 199);
+    background-color: #efeceb;
 }
 
 footer a{
@@ -49,6 +54,14 @@ footer a{
     justify-content: center;
     text-align: center;
     width: 100%;
+    border-right: solid 1px rgb(200, 199, 199);
+}
+
+.icon{
+    width: 70px;
+    height: 100%;
+    padding-left: 20vh;
+    padding-right: 20vh;
 }
 
 
