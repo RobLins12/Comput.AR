@@ -55,7 +55,7 @@
                         const model = gltfScene.clone();
                         model.position.setFromMatrixPosition(reticle.matrix);
                         model.quaternion.setFromRotationMatrix(reticle.matrix);
-						model.position.y += 0.5;
+						model.position.y += 0;
                         scene.add(model);
                     }
                 }
@@ -63,7 +63,7 @@
 
             loader.load('../../assets/cartao_perfurado/result.gltf', (gltf) => {
                 gltfScene = gltf.scene;
-                gltfScene.scale.set(0.015, 0.015, 0.015); // Ajuste a escala conforme necessário
+                gltfScene.scale.set(1, 1, 1); // Ajuste a escala conforme necessário
             });
 
             controller = renderer.xr.getController(0);
