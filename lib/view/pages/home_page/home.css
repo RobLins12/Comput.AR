@@ -17,6 +17,7 @@ body {
 
 h1{
     padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -45,8 +46,8 @@ h1{
     height: 10%;
     position: fixed; /* Mantém o footer fixo */
     bottom: 0; /* Posiciona o footer na parte inferior da tela */
-    border-top: solid 1px rgb(200, 199, 199);
     background-color: #efeceb;
+    box-shadow: 0 -10px 10px -10px rgba(0, 0, 0, 0.5);
 }
 
 footer a{
@@ -59,11 +60,16 @@ footer a{
 }
 
 .icon{
-    width: 70px;
-    height: 100%;
+    width: 60px;
+    height: 80%;
     padding-left: 20vh;
     padding-right: 20vh;
 }
+
+.question{
+    border-right: none;
+}
+
 
 
 
