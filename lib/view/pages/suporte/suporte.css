@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    background-color: #efeceb;
+    font-family: "Aldrich", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Altura total da tela */
+    overflow-y: auto; /* Adiciona rolagem no eixo Y */
+    padding-bottom: 10%; /* Espaço para o footer fixo */
+}
+
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center; 
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    gap: 10px; 
+  }
+
+  .boxlink{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 50px;
+  }
+  
+  .box {
+    width: 60%;
+    align-items: center;
+    height: 25vh;
+    display: flex;
+    background-color: #422e1b;
+    border-radius: 10px;
+  }
+
+.box img{
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.box p{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    position: fixed; /* Mantém o footer fixo */
+    bottom: 0; /* Posiciona o footer na parte inferior da tela */
+    background-color: #efeceb;
+    box-shadow: 0 -10px 10px -10px rgba(0, 0, 0, 0.3);
+}
+
+footer a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    border-right: solid 1px rgb(200, 199, 199);
+}
+
+.icon{
+    width: 60px;
+    height: 80%;
+    padding-left: 20vh;
+    padding-right: 20vh;
+}
+
+.question{
+    border-right: none;
+}
+
+
+@media (max-width: 768px) {
+    
+    h1 {
+        font-size: 40px; 
+        margin-bottom: 0px;
+    }
+
+    .container {       
+        flex-direction: column; 
+        align-items: center;
+        height: auto;
+    }
+
+    .box {
+        width: 80%; 
+        height: 25vh; 
+    }
+
+    .box img {  
+        width: 40%;
+        height: 100%; 
+    }
+    
+    .box p {
+        font-size: 24px; 
+    }
+
+    .icon{
+        width: 100%;
+        height: 0%;
+        padding-left: 0vh;
+        padding-right: 0vh;
+    }
+
+    .icon img{
+        width: 25%;
+    }
+}
+
+@media (max-width: 480px){
+    .container {       
+        flex-direction: column;  
+        align-items: center;
+        height: 130vh;
+    }
+
+    .boxlink{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: white;
+        height: 15%;
+        margin-bottom: 0px;
+      }
+      
+
+    .box {
+        width: 80%; 
+        height: 100%; 
+    }
+
+}
+
