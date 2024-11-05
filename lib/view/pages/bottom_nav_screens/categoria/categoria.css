@@ -5,6 +5,7 @@
 }
 
 body {
+    overflow-y: unset;
     background-color: #efeceb;
     font-family: "Aldrich", sans-serif;
     display: flex;
@@ -97,7 +98,8 @@ footer a{
 
 .swiper {
     width: 100%;
-    height: 600px;
+    height: auto; /* Permite adaptação */
+    max-height: 600px; /* Define uma altura máxima */
 }
 
 @media (max-width: 768px) {
