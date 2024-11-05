@@ -93,7 +93,6 @@ footer a{
 .swiper {
     width: 100%;
     height: auto; /* Permite adaptação */
-    max-height: 600px; /* Define uma altura máxima */
 }
 
 .swiper-slide {
@@ -109,20 +108,8 @@ footer a{
         margin-bottom: 0px;
     }
 
-    .container {       
-        flex-direction: column; 
-        align-items: center;
-        height: auto;
-    }
-
     .box {
         width: 80%; 
-        height: 25vh; 
-    }
-
-    .box img {  
-        width: 40%;
-        height: 100%; 
     }
     
     .box p {
@@ -142,17 +129,12 @@ footer a{
 }
 
 @media (max-width: 480px){
-    .container {       
-        flex-direction: column;  
-        align-items: center;
-        height: 130vh;
-    }
 
     .boxlink{
         display: flex;
         justify-content: center;
+        align-items: center;
         text-decoration: none;
-        color: white;
         height: 15%;
         margin-bottom: 0px;
       }
@@ -160,7 +142,7 @@ footer a{
 
     .box {
         width: 80%; 
-        height: 100%; 
+        text-align: center;
     }
 
 }
