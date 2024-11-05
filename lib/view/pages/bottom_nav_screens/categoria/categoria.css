@@ -16,12 +16,6 @@ body {
     padding-bottom: 10%; /* Espaço para o footer fixo */
 }
 
-.swiper-slide{
-    display: flex;
-    align-items: center;
-    justify-self: center;
-}
-
 h1{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -100,6 +94,12 @@ footer a{
     width: 100%;
     height: auto; /* Permite adaptação */
     max-height: 600px; /* Define uma altura máxima */
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Corrige a centralização */
 }
 
 @media (max-width: 768px) {
