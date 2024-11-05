@@ -42,6 +42,7 @@ h1{
     flex-direction: column;
     background-color: #fff;
     border-radius: 10px;
+    text-align: center;
   }
 
 .box img{
@@ -109,7 +110,7 @@ footer a{
     }
 
     .box {
-        width: 80%; 
+        width: 70%; 
     }
     
     .box p {
@@ -141,8 +142,7 @@ footer a{
       
 
     .box {
-        width: 80%; 
-        text-align: center;
+        width: 70%; 
     }
 
 }
