@@ -94,6 +94,11 @@ footer a{
     border-right: none;
 }
 
+.swiper {
+    width: 600px;
+    height: 300px;
+}
+
 
 @media (max-width: 768px) {
     
