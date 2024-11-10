@@ -23,44 +23,53 @@ h1{
     margin-bottom: 30px;
 }
 
-.container {
+.busca{
+    width: 50%;
+}
+
+#searchBox{
+    border: 2px 2px rgb(209, 209, 209);
+    height: 25px;
+    padding: 5px;
+}
+
+#itemsList{
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: repeat(2, 1fr); /* 3 colunas de tamanho igual */
+    padding: 10px;
+    height: auto;
+    width: 70%;
+    gap: 10px; 
+}
+
+
+.item {
     display: flex;
+    cursor: pointer;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width: 90%;
+    width: 80%;
+    height: 200px;
+    background-color: #f0e6dd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.item img{
+    width: 80%;
     height: auto;
-    gap: 10px; 
-  }
-
-  .boxlink{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    color: white;
-    margin-bottom: 50px;
-  }
-  
-  .box {
-    width: 60%;
-    align-items: center;
-    height: 25vh;
-    display: flex;
-    background-color: #422e1b;
     border-radius: 10px;
-  }
-
-.box img{
-    height: 100%;
-    width: 30%;
-    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
-.box p{
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-}
+
+
+
 
 footer {
     display: flex;

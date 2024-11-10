@@ -10,10 +10,26 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <h1>Busca</h1>
-    <div class="container"></div>
-  
+    <div class="busca">
+        <label for="searchBox">Buscar Objeto</label>
+        <input type="text" id="searchBox" placeholder="Digite o nome do objeto..." onkeyup="searchItems()">
+    </div>
+    <div id="itemsList">
+        <div class="item" onclick="window.location.href='../../../../model/cartao_perfurado_ra/index.html'">
+            <img src="../../../../assets/images/cartao_perfurado.jpg" alt="Cartão Perfurado">
+            <p>Cartão Perfurado</p>
+        </div>
+        <div class="item">Objeto 2</div>
+        <div class="item">Objeto 3</div>
+        <div class="item">Outro Objeto</div>
+        <div class="item">Mais um Objeto</div>
+    </div>
+
+    <script src="busca.js">
+    </script>
 
     <footer>
         <a href="../home_page/home.html" class="icon"><img src="../../../../assets/bottom_bar_icons/home.png" alt="Ícone 1"></a>
