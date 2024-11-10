@@ -23,14 +23,43 @@ h1{
     margin-bottom: 30px;
 }
 
+
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    background: rgb(243, 241, 241);
     align-items: center;
-    width: 90%;
-    height: auto;
-    gap: 10px; 
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 75vw;
+    height: 50vh;
+    border-radius: 20px; 
+  }
+
+  .conteudo{
+    display: flex;
+    flex-direction: column;
+    height:50%;
+  }
+
+  .conteudo h2{
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  
+  .conteudo p{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+  }
+
+  .conteudo ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70%;
+    padding-left: 15px;
   }
 
   .boxlink{
