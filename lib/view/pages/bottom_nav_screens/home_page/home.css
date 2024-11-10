@@ -33,14 +33,14 @@ h1{
     padding-left: 15px;
     padding-right: 15px;
     width: 75vw;
-    height: 75vh;
+    height: 100%;
     border-radius: 20px; 
   }
 
   .conteudo{
     display: flex;
     flex-direction: column;
-    height:50%;
+    height:100%;
   }
 
   .conteudo h2{
@@ -51,6 +51,7 @@ h1{
   .conteudo p{
     font-family: "Poppins", sans-serif;
     font-size: 20px;
+    margin-bottom: 2rem;
   }
 
   .conteudo ul{
@@ -107,12 +108,15 @@ footer a{
         margin-bottom: 0px;
     }
 
+    .conteudo {
+        height: 100% !important;
+    } 
+
     .container {       
         flex-direction: column; 
         align-items: center;
-        height: auto;
+        height: 208vh;
     }
-
 
     .icon{
         width: 100%;
@@ -130,7 +134,12 @@ footer a{
     .container {       
         flex-direction: column;  
         align-items: center;
-        height: 130vh;
+        height: 208vh;
+        margin-bottom: 2rem;
+    }
+
+    .conteudo {
+        height: 100%;
     }
 
 }
